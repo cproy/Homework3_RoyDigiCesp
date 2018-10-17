@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d455b"
+    tools:context="com.example.ehar.SensorExample.MainActivity">
+
+    <!-- Include all the layout files -->
+    <include layout="@layout/coords_and_scrollview"/>
+    <include layout="@layout/start_end_coordinates"/>
+    <include layout="@layout/acceleration"/>
+    <include layout="@layout/buttons"/>
+
+</FrameLayout>
